@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projeto.css">
+    <title>Events Api</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div id="capa">
+            <img src="imagens/back-end.jpg" alt="Imagen do projeto">
+            <div>
+                <h1><b>Events Api</b></h1>
+                <p id="descricao-tecnologias">
+                    <b>Linguagem:</b> Java<br>
+                    <b>Framework:</b> Spring Boot<br>
+                    <b>Tecnologias:</b> JPA, H2, Lombok, Devtools, Validation e Spring Security
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <p id="descricao-projeto">
+                Este projeto é uma API RESTful desenvolvida em Java utilizando o framework Spring Boot. A API é
+                projetada para gerenciar o cadastro de eventos estudantis, com endpoints específicos para o cadastro de
+                estudantes, universidades e tipos de usuários.<br><br>
+
+                Os principais componentes da API são:<br><br>
+
+                <b>Estudante:</b> Este endpoint permite o cadastro de estudantes. Ele suporta métodos HTTP como GET
+                (para
+                buscar informações do estudante), POST (para criar um novo estudante), DELETE (para remover um
+                estudante) e UPDATE (para atualizar as informações de um estudante existente).<br><br>
+
+                <b>Universidade:</b> Este endpoint é semelhante ao do estudante, mas é usado para gerenciar as
+                informações das
+                universidades. Ele também suporta os métodos GET, POST, DELETE e UPDATE.<br><br>
+
+                <b>Tipo de Usuário:</b> Este endpoint permite o gerenciamento de diferentes tipos de usuários. Ele
+                suporta os
+                mesmos métodos HTTP que os outros endpoints.<br><br>
+
+                Além disso, a API permite que os usuários sejam buscados com base na instituição e no tipo de cadastro.
+                Isso significa que você pode, por exemplo, buscar todos os estudantes que estão registrados em uma
+                universidade específica ou todos os usuários de um determinado tipo.<br><br>
+
+                A segurança da API é garantida pelo uso do Spring Security com tokens JWT. Isso significa que cada
+                requisição à API deve ser acompanhada de um token JWT válido, que é usado para autenticar o usuário e
+                garantir que ele tem permissão para realizar a ação solicitada.
+            </p>
+        </div>
+
+        <div class="botoes">
+            <button><a href="index.html">Voltar</a></button>
+            <button style="margin-left: 1.5rem;"><a href="https://github.com/Complaint5/events-api"
+                    target="_blank">Projeto no
+                    GitHub</a></button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="copy">
+            <p>
+                <a href="https://www.github.com/Complaint5" target="_blank">&copy; 2024 github.com/Complaint5</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

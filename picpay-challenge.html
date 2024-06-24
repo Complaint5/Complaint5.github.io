@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projeto.css">
+    <title>Desafio Pic Pay</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div id="capa">
+            <img src="imagens/back-end.jpg" alt="Imagen do projeto">
+            <div>
+                <h1><b>Desafio Pic Pay</b></h1>
+                <p id="descricao-tecnologias">
+                    <b>Linguagem:</b> Java<br>
+                    <b>Framework:</b> Spring Boot<br>
+                    <b>Tecnologias:</b> JPA, H2, Lombok, Devtools, Openfeign, Swagger e Validation
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <p id="descricao-projeto">
+                Este projeto é uma API RESTful desenvolvida em Java e Spring Boot que simula uma conta bancária,
+                semelhante ao PicPay. A API foi projetada para permitir a manipulação de dados da conta do cliente e
+                realizar transações.<br><br>
+
+                <b>Funcionalidades Principais:</b><br><br>
+
+                <b>Manipulação de Dados do Cliente:</b> A API fornece endpoints para criar, atualizar, recuperar e excluir
+                informações da conta do cliente.<br><br>
+
+                <b>Transações:</b> A API permite que os usuários realizem transações entre contas. Existem restrições
+                específicas para essas transações. Por exemplo, um lojista só pode receber transferências de usuários
+                normais e não pode transferir para outros lojistas. No entanto, um usuário normal pode transferir tanto
+                para lojistas quanto para outros usuários normais.<br><br>
+
+                <b>Integração com APIs Externas:</b><br><br>
+
+                A API se integra com serviços externos para validar transações e enviar e-mails. Utiliza o OpenFeign, um
+                cliente declarativo da web do Spring, para facilitar a comunicação HTTP com esses serviços externos.<br><br>
+
+                <b>Documentação da API com Swagger:</b><br><br>
+
+                O projeto também inclui documentação da API usando o Swagger. O Swagger é uma ferramenta que ajuda os
+                desenvolvedores a projetar, construir, documentar e consumir APIs RESTful. Ele gera uma interface de
+                usuário interativa, permitindo que os usuários explorem e testem a API.<br><br>
+
+                <b>Arquitetura do Projeto:</b><br><br>
+
+                O projeto segue a Clean Architecture, o que significa que o código é organizado de maneira que seja
+                fácil de entender, escalável e fácil de manter. Além disso, essa estrutura facilita a escrita de testes
+                unitários e de integração.
+            </p>
+        </div>
+
+        <div class="botoes">
+            <button><a href="index.html">Voltar</a></button>
+            <button style="margin-left: 1.5rem;"><a href="https://github.com/Complaint5/desafio-picpay"
+                    target="_blank">Projeto no GitHub</a></button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="copy">
+            <p>
+                <a href="https://www.github.com/Complaint5" target="_blank">&copy; 2024 github.com/Complaint5</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

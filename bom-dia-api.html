@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projeto.css">
+    <title>Bom Dia Api</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div id="capa">
+            <img src="imagens/Bom-dia.jpg" alt="Imagen do projeto">
+            <div>
+                <h1><b>Bom Dia Api</b></h1>
+                <p id="descricao-tecnologias">
+                    <b>Linguagem:</b> Java e JavaScript<br>
+                    <b>Framework:</b> Spring Boot<br>
+                    <b>Tecnologias:</b> HTML, CSS, JPA, H2, Lombok, Devtools, Validation e Java Mail
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <p id="descricao-projeto">
+                O projeto é um sistema de envio de e-mails diários com mensagens de “Bom dia” para os usuários
+                cadastrados. Ele é composto por duas partes principais: uma API de back-end e uma interface de
+                front-end.<br><br>
+
+                <b>Back-end (API):</b> O back-end, desenvolvido em Java com o framework Spring Boot, gerencia o banco de
+                dados de e-mails dos usuários e programa o envio das mensagens de “Bom dia”. A API possui endpoints para
+                cadastrar um novo e-mail e atualizar a preferência de recebimento de e-mails. O processamento de envio
+                de e-mails é realizado de forma assíncrona, utilizando programação agendada (scheduled).<br><br>
+
+                <b>Front-end:</b> O front-end, desenvolvido com HTML, CSS e JavaScript, permite que os usuários
+                interajam com a API de maneira fácil e intuitiva. Ele oferece formulários para cadastrar um novo e-mail e atualizar a
+                preferência de recebimento de e-mails.<br><br>
+
+                <b>Funcionamento:</b> Todos os dias, a API verifica a lista de e-mails cadastrados e envia uma mensagem
+                de “Bom dia” para cada um deles de forma assíncrona. Se um usuário decidir que não deseja mais receber essas
+                mensagens, ele pode atualizar sua preferência através do front-end, e a API irá parar de enviar e-mails
+                para ele.<br><br>
+
+                Neste projeto, uma vez que um e-mail é cadastrado, ele não pode ser removido da lista de envios. 
+                No entanto, o usuário pode optar por não receber mais e-mails atualizando sua preferência.
+            </p>
+        </div>
+
+        <div class="botoes">
+            <button><a href="index.html">Voltar</a></button>
+            <button style="margin-left: 1.5rem;"><a href="https://github.com/Complaint5/bom-dia" target="_blank">
+                    Projeto no GitHub</a></button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="copy">
+            <p>
+                <a href="https://www.github.com/Complaint5" target="_blank">&copy; 2024 github.com/Complaint5</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
